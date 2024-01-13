@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import 'sass/colors';
+@import 'sass/layout';
+@import 'sass/spacing';
+@import 'sass/typography';
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    position: relative;
+    background: url(../img/d843okx-eb13e8e4-0fa4-4fa9-968a-e0f36ff168de.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    &::-webkit-scrollbar {
+        padding-right: 2px;
+        width: 12px;
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        background: $primary-normal;
+    }
+}
+
+.border {
+    border: 1px solid red;
+}
+
+.border-radius {
+    border-radius: 8px;
+}
+
+.block {
+    display: block;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.relative {
+    position: relative;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+svg,
+img {
+    width: 100%;
+    //height: auto;
+}
+
+@import 'sass/menu';
+@import 'sass/icons';
+@import 'sass/buttons';
