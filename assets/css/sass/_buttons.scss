@@ -17,6 +17,10 @@
     @include responsive(s) {
         width: 22%;
     }
+
+    @include responsive(xs) {
+        width: 50%;
+    }
 }
 
 .button:active {

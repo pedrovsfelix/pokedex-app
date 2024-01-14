@@ -345,8 +345,10 @@ $gutter: 32px;
     animation: spin 4s linear infinite;
 
     img {
-
         filter: drop-shadow(0 0 0.3rem $black-dark);
+        @include responsive(xs) {
+            max-width: 220px;
+        }
     }
 }
 
@@ -396,6 +398,11 @@ main {
         top: 45%;
         left: 50%;
     }
+
+    @include responsive(xs) {
+        max-width: 58px;
+        max-height: 58px;
+    }
 }
 
 .pokemon-content {
@@ -420,6 +427,10 @@ main {
     @include responsive(s) {
         top: 62%;
         left: 50%;
+    }
+
+    @include responsive(xs) {
+        top: 60.5%;
     }
 
     .pokemon-name {
@@ -455,6 +466,10 @@ main {
         width: 35%;
     }
 
+    @include responsive(xs) {
+        width: 60%;
+    }
+
     .info-pokemon {
         background-color: #e3e3e3;
         width: 100%;
@@ -487,6 +502,12 @@ main {
     @include responsive(s) {
         left: 65%;
     }
+
+    @include responsive(xs) {
+        width: 60%;
+        left: 48%;
+        bottom: 14%;
+    }
 }
 
 .div-pokemon {
@@ -504,10 +525,7 @@ main {
         max-width: 200px;
     }
 
-
     @include responsive(xs) {
-        img {
-            max-width: 285px;
-        }
+        width: 220px;
     }
 }

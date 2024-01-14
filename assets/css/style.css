@@ -508,6 +508,11 @@
 .loader-pokebola img {
   filter: drop-shadow(0 0 0.3rem #040C1B);
 }
+@media screen and (max-width: 340px) {
+  .loader-pokebola img {
+    max-width: 220px;
+  }
+}
 @keyframes spin {
   100% {
     transform: rotate(360deg);
@@ -543,6 +548,12 @@ main {
     left: 50%;
   }
 }
+@media screen and (max-width: 340px) {
+  .pokemon {
+    max-width: 58px;
+    max-height: 58px;
+  }
+}
 
 .pokemon-content {
   position: absolute;
@@ -568,6 +579,11 @@ main {
   .pokemon-content {
     top: 62%;
     left: 50%;
+  }
+}
+@media screen and (max-width: 340px) {
+  .pokemon-content {
+    top: 60.5%;
   }
 }
 .pokemon-content .pokemon-name {
@@ -607,6 +623,11 @@ main {
     width: 35%;
   }
 }
+@media screen and (max-width: 340px) {
+  .pokemon-search {
+    width: 60%;
+  }
+}
 .pokemon-search .info-pokemon {
   background-color: #e3e3e3;
   width: 100%;
@@ -641,6 +662,13 @@ main {
     left: 65%;
   }
 }
+@media screen and (max-width: 340px) {
+  .buttons {
+    width: 60%;
+    left: 48%;
+    bottom: 14%;
+  }
+}
 
 .div-pokemon {
   width: 325px;
@@ -659,8 +687,8 @@ main {
   }
 }
 @media screen and (max-width: 340px) {
-  .pokedex img {
-    max-width: 285px;
+  .pokedex {
+    width: 220px;
   }
 }
 
@@ -1898,6 +1926,11 @@ nav {
 @media screen and (max-width: 960px) {
   .button {
     width: 22%;
+  }
+}
+@media screen and (max-width: 340px) {
+  .button {
+    width: 50%;
   }
 }
 
