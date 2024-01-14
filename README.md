@@ -2,7 +2,7 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/pedrovsfelix/pokedex-app)
 
-<img src="" style="max-height: 430px;" alt="Pokédex">
+<img src="https://i.ibb.co/PgMNqfh/pokedexapp.png" style="max-height: 430px;" alt="Pokédex">
 
 > Projeto utilizando técnicas de position absolute e relative. Integração da biblioteca GSAP para motion design em alguns elementos.
 

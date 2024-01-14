@@ -11,6 +11,10 @@
         font-size: 165px;
         line-height: 120%;
         font-weight: 100;
+
+        @include responsive(l) {
+            font-size: 98px;
+        }
     }
 
     @else if $size ==h0 and $device ==mobile {

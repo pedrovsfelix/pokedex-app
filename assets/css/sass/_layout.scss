@@ -107,6 +107,9 @@ $gutter: 32px;
     margin: 0 auto;
     padding: 128px 24px;
 
+    @include responsive(l) {
+        padding: 98px 0;
+    }
     // clearfix
     &::after {
         content: '';
@@ -366,11 +369,9 @@ $gutter: 32px;
     }
 }
 
-
-
-
 main {
     max-height: 100vh;
+    max-width: 100%;
 }
 
 .pokemon {
@@ -383,6 +384,13 @@ main {
     max-width: 120px;
     z-index: 999;
     transition: 1s ease;
+
+    @include responsive(l) {
+        max-width: 64px;
+        max-height: 64px;
+        top: 52%;
+        left: 50%;
+    }
 
     @include responsive(s) {
         top: 45%;
@@ -404,6 +412,11 @@ main {
     z-index: 999;
     transition: 1s ease;
 
+    @include responsive(l) {
+        top: 65%;
+        left: 50%;
+    }
+
     @include responsive(s) {
         top: 62%;
         left: 50%;
@@ -411,10 +424,16 @@ main {
 
     .pokemon-name {
         color: $black-dark;
+        @include responsive(l) {
+            font-size: 22px;
+        }
     }
 
     .pokemon-number {
         color: $black-dark;
+        @include responsive(l) {
+            font-size: 22px;
+        }
     }
 }
 
@@ -425,6 +444,12 @@ main {
     left: 49%;
     transform: translate(-50%, -50%);
     z-index: 999;
+
+    @include responsive(l) {
+        top: 74%;
+        left: 49.5%;
+        width: 15%;
+    }
 
     @include responsive(s) {
         width: 35%;
@@ -454,6 +479,11 @@ main {
     gap: 20px;
     z-index: 999;
 
+    @include responsive(l) {
+        bottom: 16%;
+        width: 55%;
+    }
+
     @include responsive(s) {
         left: 65%;
     }
@@ -469,6 +499,10 @@ main {
     transition: 1s ease;
     width: 325px;
     z-index: 1;
+
+    @include responsive(l) {
+        max-width: 200px;
+    }
 
 
     @include responsive(xs) {

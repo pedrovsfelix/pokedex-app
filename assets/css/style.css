@@ -301,6 +301,11 @@
   margin: 0 auto;
   padding: 128px 24px;
 }
+@media screen and (max-width: 1440px) and (min-width: 1268px) {
+  .container {
+    padding: 98px 0;
+  }
+}
 .container::after {
   content: "";
   display: table;
@@ -510,6 +515,7 @@
 }
 main {
   max-height: 100vh;
+  max-width: 100%;
 }
 
 .pokemon {
@@ -522,6 +528,14 @@ main {
   max-width: 120px;
   z-index: 999;
   transition: 1s ease;
+}
+@media screen and (max-width: 1440px) and (min-width: 1268px) {
+  .pokemon {
+    max-width: 64px;
+    max-height: 64px;
+    top: 52%;
+    left: 50%;
+  }
 }
 @media screen and (max-width: 960px) {
   .pokemon {
@@ -544,6 +558,12 @@ main {
   z-index: 999;
   transition: 1s ease;
 }
+@media screen and (max-width: 1440px) and (min-width: 1268px) {
+  .pokemon-content {
+    top: 65%;
+    left: 50%;
+  }
+}
 @media screen and (max-width: 960px) {
   .pokemon-content {
     top: 62%;
@@ -553,8 +573,18 @@ main {
 .pokemon-content .pokemon-name {
   color: #040C1B;
 }
+@media screen and (max-width: 1440px) and (min-width: 1268px) {
+  .pokemon-content .pokemon-name {
+    font-size: 22px;
+  }
+}
 .pokemon-content .pokemon-number {
   color: #040C1B;
+}
+@media screen and (max-width: 1440px) and (min-width: 1268px) {
+  .pokemon-content .pokemon-number {
+    font-size: 22px;
+  }
 }
 
 .pokemon-search {
@@ -564,6 +594,13 @@ main {
   left: 49%;
   transform: translate(-50%, -50%);
   z-index: 999;
+}
+@media screen and (max-width: 1440px) and (min-width: 1268px) {
+  .pokemon-search {
+    top: 74%;
+    left: 49.5%;
+    width: 15%;
+  }
 }
 @media screen and (max-width: 960px) {
   .pokemon-search {
@@ -593,6 +630,12 @@ main {
   gap: 20px;
   z-index: 999;
 }
+@media screen and (max-width: 1440px) and (min-width: 1268px) {
+  .buttons {
+    bottom: 16%;
+    width: 55%;
+  }
+}
 @media screen and (max-width: 960px) {
   .buttons {
     left: 65%;
@@ -609,6 +652,11 @@ main {
   transition: 1s ease;
   width: 325px;
   z-index: 1;
+}
+@media screen and (max-width: 1440px) and (min-width: 1268px) {
+  .pokedex {
+    max-width: 200px;
+  }
 }
 @media screen and (max-width: 340px) {
   .pokedex img {
@@ -1265,6 +1313,11 @@ main {
   font-weight: 100;
   text-shadow: 0px 6px 32px rgba(0, 0, 0, 0.7);
 }
+@media screen and (max-width: 1440px) and (min-width: 1268px) {
+  .h0 {
+    font-size: 98px;
+  }
+}
 @media screen and (max-width: 960px) {
   .h0 {
     font-family: "Oxanium", cursive;
@@ -1615,6 +1668,11 @@ b {
   font-weight: 100;
   font-size: 240px;
 }
+@media screen and (max-width: 1440px) and (min-width: 1268px) {
+  .h-xl {
+    font-size: 98px;
+  }
+}
 @media screen and (max-width: 960px) {
   .h-xl {
     font-family: "Oxanium", cursive;
@@ -1632,6 +1690,11 @@ b {
   line-height: 120%;
   font-weight: 100;
   font-size: 144px;
+}
+@media screen and (max-width: 1440px) and (min-width: 1268px) {
+  .h-l {
+    font-size: 98px;
+  }
 }
 @media screen and (max-width: 960px) {
   .h-l {
@@ -1825,6 +1888,12 @@ nav {
   color: white;
   background-color: #444;
   box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+@media screen and (max-width: 1440px) and (min-width: 1268px) {
+  .button {
+    font-size: clamp(4px, 2.5vw, 0.5rem);
+    width: 12%;
+  }
 }
 @media screen and (max-width: 960px) {
   .button {

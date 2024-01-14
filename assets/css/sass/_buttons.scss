@@ -9,6 +9,11 @@
     background-color: #444;
     box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
 
+    @include responsive(l) {
+        font-size: clamp(4px, 2.5vw, .5rem);
+        width: 12%;
+    }
+
     @include responsive(s) {
         width: 22%;
     }
