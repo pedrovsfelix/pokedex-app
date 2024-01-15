@@ -508,7 +508,7 @@
 .loader-pokebola img {
   filter: drop-shadow(0 0 0.3rem #040C1B);
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 430px) {
   .loader-pokebola img {
     max-width: 220px;
   }
@@ -548,7 +548,7 @@ main {
     left: 50%;
   }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 430px) {
   .pokemon {
     max-width: 58px;
     max-height: 58px;
@@ -581,7 +581,7 @@ main {
     left: 50%;
   }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 430px) {
   .pokemon-content {
     top: 60.5%;
   }
@@ -613,7 +613,7 @@ main {
 }
 @media screen and (max-width: 1440px) and (min-width: 1268px) {
   .pokemon-search {
-    top: 74%;
+    top: 73%;
     left: 49.5%;
     width: 15%;
   }
@@ -623,9 +623,10 @@ main {
     width: 35%;
   }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 430px) {
   .pokemon-search {
-    width: 60%;
+    width: 54%;
+    top: 73%;
   }
 }
 .pokemon-search .info-pokemon {
@@ -662,11 +663,11 @@ main {
     left: 65%;
   }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 430px) {
   .buttons {
-    width: 60%;
+    width: 56%;
     left: 48%;
-    bottom: 14%;
+    bottom: 16%;
   }
 }
 
@@ -686,7 +687,7 @@ main {
     max-width: 200px;
   }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 430px) {
   .pokedex {
     width: 220px;
   }
@@ -1354,7 +1355,7 @@ main {
     font-weight: 100;
   }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 430px) {
   .h0 {
     font-family: "Oxanium", cursive;
     font-size: 40px;
@@ -1379,7 +1380,7 @@ h1 {
     font-weight: 100;
   }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 430px) {
   h1 {
     font-family: "Oxanium", cursive;
     font-size: 48px;
@@ -1403,7 +1404,7 @@ h2 {
     font-weight: 100;
   }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 430px) {
   h2 {
     font-family: "Oxanium", cursive;
     font-size: 36px;
@@ -1427,7 +1428,7 @@ h3 {
     font-weight: 100;
   }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 430px) {
   h3 {
     font-family: "Oxanium", cursive;
     font-size: 28px;
@@ -1451,7 +1452,7 @@ h4 {
     font-weight: 200;
   }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 430px) {
   h4 {
     font-family: "Oxanium", cursive;
     font-size: 20px;
@@ -1523,7 +1524,7 @@ p {
     font-weight: 200;
   }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 430px) {
   p {
     font-family: "Cabin", sans-serif;
     font-size: 14px;
@@ -1551,7 +1552,7 @@ p {
     font-weight: 300;
   }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 430px) {
   .p1 {
     font-family: "Cabin", sans-serif;
     font-size: 14px;
@@ -1928,7 +1929,7 @@ nav {
     width: 22%;
   }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 430px) {
   .button {
     width: 50%;
   }

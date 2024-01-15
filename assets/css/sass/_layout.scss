@@ -5,7 +5,7 @@ $container-xl: 1440px;
 $container-l: 1268px;
 $container-m: 960px;
 $container-s: 620px;
-$container-xs: 340px;
+$container-xs: 430px;
 $gutter: 32px;
 
 // Mixin of media-queries
@@ -457,7 +457,7 @@ main {
     z-index: 999;
 
     @include responsive(l) {
-        top: 74%;
+        top: 73%;
         left: 49.5%;
         width: 15%;
     }
@@ -467,7 +467,8 @@ main {
     }
 
     @include responsive(xs) {
-        width: 60%;
+        width: 54%;
+        top: 73%;
     }
 
     .info-pokemon {
@@ -504,9 +505,9 @@ main {
     }
 
     @include responsive(xs) {
-        width: 60%;
+        width: 56%;
         left: 48%;
-        bottom: 14%;
+        bottom: 16%;
     }
 }
 
