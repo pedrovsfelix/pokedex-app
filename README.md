@@ -5,6 +5,7 @@
 <a href="https://pedrovsfelix.github.io/pokedex-app/">
   <img src="https://i.ibb.co/PgMNqfh/pokedexapp.png" style="max-height: 430px;" alt="Pokédex">
 </a>
+
 > Projeto utilizando técnicas de position absolute e relative. Integração da biblioteca GSAP para motion design em alguns elementos.
 
 ### Ajustes e melhorias
